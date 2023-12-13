@@ -1,0 +1,34 @@
+def school():
+    print("contact details of school")
+    print("Delhi Public School")
+    print("New Delhi")
+    print("8793756209")
+    print("dps@gmail.com")
+for i in range(2):
+    name = input("Name of student")
+    maths = int(input("Enter your maths marks"))
+    english = int(input("Enter your english marks"))
+    science = int(input("Enter your science marks"))
+    print()
+    school()
+
+Name of studentneha
+Enter your maths marks90
+Enter your english marks89
+Enter your science marks70
+
+contact details of school
+Delhi Public School
+New Delhi
+8793756209
+dps@gmail.com
+Name of studentgeeta
+Enter your maths marks67
+Enter your english marks45
+Enter your science marks98
+
+contact details of school
+Delhi Public School
+New Delhi
+8793756209
+dps@gmail.com
