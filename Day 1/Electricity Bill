@@ -1,0 +1,43 @@
+#If 500 units used- pay Rs5 for each unit
+#If 700 units used - pay Rs 10 for each unit
+#If 1000 unit used - pay Rs 15 for each unit
+#If more than 1000 unit used - pay Rs 20 for each unit
+
+def electricity_bill(n):
+    if n<=500:
+        print("your bill is Rs ",n*5)
+    elif n>500 and n<=700:
+        print("Your bill is Rs ",n*10)
+    elif n>700 and n <=1000:
+        print("Your bill is Rs ",n*15)
+    elif n>1000:
+        print("Your bill is Rs ",n*20)
+def instructions():
+    print("Last day to pay your due is 20 April")
+    print("After 20 April you need to pay Rs 1000 as a fine")
+for i in range(3):
+    a = input("Enter your name ")
+    n = int(input("Enter the unit of electricity you have used "))
+    electricity_bill(n)
+    print()
+    instructions()
+
+Enter your name Urvi
+Enter the unit of electricity you have used 650
+Your bill is Rs  6500
+
+Last day to pay your due is 20 April
+After 20 April you need to pay Rs 1000 as a fine
+Enter your name Riya
+Enter the unit of electricity you have used 890
+Your bill is Rs  13350
+
+Last day to pay your due is 20 April
+After 20 April you need to pay Rs 1000 as a fine
+Enter your name Sneha
+Enter the unit of electricity you have used 340
+your bill is Rs  1700
+
+Last day to pay your due is 20 April
+After 20 April you need to pay Rs 1000 as a fine
+​
