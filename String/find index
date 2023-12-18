@@ -1,0 +1,5 @@
+p = "Hello Pyhton"
+a = p.find("P")
+print(a)
+
+// 6
