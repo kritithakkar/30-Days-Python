@@ -1,0 +1,4 @@
+s = "Hello this is Hello text"
+print(s.count("Hello"))
+
+  // 2
