@@ -1,0 +1,3 @@
+s = "this is text"
+print(s.capitalize())
+=> This is text
