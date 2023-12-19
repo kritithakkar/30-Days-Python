@@ -1,0 +1,2 @@
+l1.append("chair")
+print(l1)
