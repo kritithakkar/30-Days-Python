@@ -1,0 +1,5 @@
+def names(f='reeta',l='lamba'):
+    print("hello",f,l)
+    
+names('neha','agarwal')    
+    
