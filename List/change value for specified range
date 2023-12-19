@@ -1,0 +1,3 @@
+l1 = [1,5,7,9,-1,4,55,22,52,66,33,11,44,55]
+l1[3:7] =['orange','mango','watermelon','litchi']
+print(l1)
