@@ -1,0 +1,22 @@
+l = [4,8,2,6,0,2,7,5,1,2]
+# sort
+l.sort()
+print(l)
+# index
+print(l.index(2))
+#count - count occurance of element 
+print(l.count(2))
+#copy
+m = l.copy()
+print(m)
+# insert element at specified index
+l.insert(1,99)
+print(l)
+# adding two list together
+# 1) extend
+p = [44,66,88]
+l.extend(p)
+print(l)
+# 2) + operator
+k = l+p 
+print(k)
