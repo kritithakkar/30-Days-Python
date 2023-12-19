@@ -1,0 +1,4 @@
+marks = [1 ,6,3,2,"Harry",True,9,45,90]
+print(marks)
+print(marks[:])
+print(marks[0:])
