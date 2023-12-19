@@ -1,0 +1,20 @@
+#1 Arbitary Arguments
+
+def average(*num):
+    sum = 0
+    for i in num:
+       sum = sum + i
+    print(sum)
+
+average(5,6)
+
+#2 Return statement
+
+def average(*num):
+   sum = 0
+   for i in num:
+       sum = sum+i
+   return sum/len(num)
+
+c = average(1,4,6)
+print(c)
