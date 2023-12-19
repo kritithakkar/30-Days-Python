@@ -1,0 +1,6 @@
+l = [1,4,6,2,7,5,2,5]
+a = 0
+for i in range(len(l)):
+    a = a+l[i]
+    i = i+1 
+print(a)    
