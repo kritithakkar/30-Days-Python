@@ -1,0 +1,6 @@
+lst =[10,23,6,8,1,67]
+i =6
+if i in lst: 
+    print("exist") 
+else: 
+    print("not exist")
